@@ -1,3 +1,4 @@
+import "./stil.scss"
 export default function Azizbek() {
     return (
         <>
