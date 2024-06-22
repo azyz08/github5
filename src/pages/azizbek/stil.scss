@@ -1,0 +1,368 @@
+.text {
+    margin-top: 200px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 30px;
+    padding: 20px;
+
+    h1 {
+        font-size: 55px;
+        font-weight: 100;
+        text-align: center;
+    }
+
+    p {
+        text-align: center;
+        color: #5E5E5E;
+        line-height: 24px;
+    }
+}
+
+.textBox {
+    background-color: #F7F9FF;
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    gap: 15px;
+    padding: 40px 220px;
+
+    .top {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        width: 100%;
+
+        h1,
+        h3 {
+            font-weight: 100;
+        }
+    }
+}
+
+.off {
+    background-color: #000000;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 30px 170px;
+
+    button {
+        background-color: #CEFE2E;
+        font-size: 16px;
+        border: none;
+        padding: 1px 30px;
+        border-radius: 2px;
+    }
+}
+
+.users {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    padding: 40px 0;
+
+    .user {
+        background-image: url("https://s3-alpha-sig.figma.com/img/5d33/93b6/5dcff211bb6d18d85b458e56e66ff4e5?Expires=1719792000&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=D-Ss9jawTUgds0Q8t~mVUf8argofRdvIZXdlb03ou32wne~IrJOnAltamD6U8r8834CJB3GEUnP7a1Qt-a7e5Ohh-u0qgXBY0QqRfS4R8KXEoV9RWfMKgsCpcrG8sn3N1iqyqPQh3Yc71j-oJvmhm7zpFPuiuyOzERmzr9BgUTIfZ7LlzqAaqwJftXuuZSk41XMj7xBBCSbKWUhoZynnNcIJs0sEFbIE4rvFAReOxw8gsP-gYxH2KQJEqHljGMgVxu-~vD4nNMSN571HXpM23Ce8vquzM0G7YIOo0gDNeVEJD7noDkG5EDx0OKtlbWfem~ojpo~TKLgBbvo2OT4LtA__");
+        width: 100%;
+        height: 300px;
+        background-position: center;
+        background-size: cover;
+        background-color: lightgrey;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding: 15px;
+
+        .desc {
+            background-color: #2468FF;
+            color: black;
+            width: 100%;
+            display: flex;
+            flex-direction: column;
+            align-items: start;
+            padding: 12px 8px;
+            gap: 8px;
+            border-radius: 8px;
+            margin-top: 200px;
+
+            h3 {
+                font-weight: 100;
+            }
+
+            p {
+                font-size: 13px;
+            }
+        }
+
+        .desc1 {
+            color: white;
+        }
+
+        .desc2 {
+            background-color: white;
+        }
+
+        .desc3 {
+            background-color: #3FE8BE;
+        }
+
+        .desc4 {
+            background-color: #C6FF00;
+        }
+
+        .desc5 {
+            background-color: aqua;
+        }
+    }
+
+    .user2 {
+        background-image: url("https://s3-alpha-sig.figma.com/img/3a86/35e6/20021e13749ab3f1c32e4b23c446e138?Expires=1719792000&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=MQE4O8Y54MgOy2X0v~6Gqcd5ZX3HkihpApFSgL9cPeGOSF4kHyEIy7l8qY-knNSO37LgSKnEwr08GlwGH9W0stTBcf8eg2p5NeKargLmaLctwPp7q95V3OGAf5FABPPUXCk9EwMYvUfnRZ8WTwD63lG0SPxCQf-xFZZyOg4QYiNTdYBW4o5fB24Z36F4ingH6C3p2~WWvEOzuLXwcPyJVD1JVJ9JJ09uzsOwnwCsu0SXTM6Ib9bX46CcdluCyD44KqZl9TRgSjupG3gt~fx0tketvNWSOgdT80z1dibBa8A3fv2XIyRszyK42YAkq-m4LmupgvrYoM~cobae0ZPPcQ__");
+    }
+
+    .user3 {
+        background-image: url("https://s3-alpha-sig.figma.com/img/2cf9/2490/70312a87d08685b1b3b01949b0b218f5?Expires=1719792000&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=FO0~XuJlNVb~us7uK6dQqHQ7qUvuOxoa9OgDj2eqAxjcEUr374PWTgfqlpVTa~-bqaLxMh0l52KsfFecUeBd2b4mX1pbRpOrsmaQjZhGS-s-A19uUu~sjtSyKjw~WlBON3mInYNg2dp16H1O-ilYMpc8XW4ceDNsgu6~mWmmNnvYIkk14zMUfWhoz5kXTntAtH4b5Kc~GDxKMZjRBdG0E7SiBLg-I~4C54NafKJU~IkxWPHxDwX3AD~~2-TGBGoTbfYKUxS-kTd4RdkXqYEUAzAeOy4TetcHtILvVlcj8Dn3BD361s0td1dTTypWB3X04KbEk0owJVT-tArjxEthmA__");
+    }
+
+    .user4 {
+        background-image: url("https://s3-alpha-sig.figma.com/img/232b/362e/9e70b3770d16ccc889994b39da06a715?Expires=1719792000&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=MUImlo02bTasJtQolYERVoRu8BP1DFjUObF72Binm0SfNrULtlCGF~xQVQlM-L4aw8TjMAW7MU8t7c0vmlaf1ZcUh~9N1kA19LQZx2zPeF7-dHqeqpV7vKgk1lSWv6gwyhzMBXjz5Xv8M6sBf8iZaGfuAlPBupQrLdvAErR1q8DOEiQDw-2ic8cyCruI3MzH5aGACo046gS3tovohC0kJtr461wrMslBagaKBXAnPn3c5McKeONdHgdE03m8iBGokWBVHB2fLbdiCQMgDxuEeHqd3RZ2ofNmOCHLArsx4LUULRlTmooI5A8m2lkbnRPDdHRRRQeB1P~sFnSoy9z~Yg__");
+    }
+
+    .user5 {
+        background-image: url("https://s3-alpha-sig.figma.com/img/07ed/5b09/6372b759e43b638a2eba60b75f157652?Expires=1719792000&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=JNflDhHI1u9AVJBxaKiXasJv7hiCVj3u6kiZHOafBPOTKlgJGOBjyuMtTua1gdDMozZjB8EwX08C5c3FZg-amccikS9guIu9r5i8VOtgSC26HcgETqDsAy0V2Kd~kMPK4BnYuls8mPrH~S4jZJnisf9stKkmOxWl6-1u2M~XA-dFqmVz~pIedSn5DPap6T-64EzDYG~vpRhhJO2CmCUxqzd21Yjnb35PpQRXU9lgVTBL~Ye9S5HIzk7JY9khkSdVHWeRBBvqCqERTbXT~M2ny-qf3~~Xi6CbDb4pCov4CNWlrA4TEknM4F8eD5SbjIyQUR6EJuKinKeITCTOvQ1Jjw__");
+    }
+}
+
+
+@media (max-width: 1250px) {
+    .textBox {
+        background-color: #F7F9FF;
+        display: flex;
+        flex-direction: column;
+        align-items: start;
+        gap: 15px;
+        padding: 40px 50px;
+
+        .top {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            width: 100%;
+
+            h1,
+            h3 {
+                font-weight: 100;
+            }
+        }
+    }
+
+    .off {
+        background-color: #000000;
+        color: white;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        padding: 30px 30px;
+        flex-wrap: wrap;
+        gap: 15px;
+
+        button {
+            background-color: #CEFE2E;
+            font-size: 16px;
+            border: none;
+            padding: 1px 25px;
+            border-radius: 2px;
+        }
+    }
+
+    .users {
+        display: flex;
+        align-items: center;
+        gap: 15px;
+        padding: 10px 20px;
+        overflow-y: hidden;
+        margin-bottom: 20px;
+
+        .user {
+            width: 600px;
+            height: 300px;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            padding: 15px 6px;
+
+            .desc {
+                background-color: #2468FF;
+                color: black;
+                width: 250px;
+                display: flex;
+                flex-direction: column;
+                align-items: start;
+                padding: 10px 8px;
+                gap: 8px;
+                border-radius: 8px;
+                margin-top: 210px;
+
+                h3 {
+                    font-weight: 100;
+                }
+
+                p {
+                    font-size: 13px;
+                }
+            }
+
+            .desc1 {
+                color: white;
+            }
+
+            .desc2 {
+                background-color: white;
+            }
+
+            .desc3 {
+                background-color: #3FE8BE;
+            }
+
+            .desc4 {
+                background-color: #C6FF00;
+            }
+
+            .desc5 {
+                background-color: aqua;
+            }
+        }
+    }
+}
+
+@media (max-width: 900px) {
+    .text {
+        margin-top: 160px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 30px;
+        padding: 20px;
+
+        h1 {
+            font-size: 40px;
+            font-weight: 100;
+            text-align: center;
+        }
+
+        p {
+            text-align: center;
+            color: #5E5E5E;
+            line-height: 24px;
+        }
+    }
+
+    .textBox {
+        background-color: #F7F9FF;
+        display: flex;
+        flex-direction: column;
+        align-items: start;
+        gap: 15px;
+        padding: 40px 20px;
+
+        .top {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            width: 100%;
+            flex-wrap: wrap;
+            gap: 20px;
+
+            h1,
+            h3 {
+                font-weight: 100;
+            }
+
+            h1 {
+                font-size: 30px;
+            }
+        }
+    }
+}
+
+@media (max-width: 630px) {
+    .text {
+        margin-top: 160px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 20px;
+        padding: 20px 10px;
+
+        h1 {
+            font-size: 30px;
+            font-weight: 100;
+            text-align: center;
+        }
+
+        p {
+            text-align: center;
+            color: #5E5E5E;
+            line-height: 23px;
+            font-size: 14px;
+        }
+    }
+
+    .textBox {
+        background-color: #F7F9FF;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 15px;
+        padding: 40px 10px;
+
+        p {
+            text-align: center;
+        }
+
+        .top {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            width: 100%;
+            flex-direction: column;
+            flex-wrap: wrap;
+            gap: 15px;
+
+            h1,
+            h3 {
+                font-weight: 100;
+                text-align: center;
+            }
+
+            h1 {
+                font-size: 30px;
+            }
+        }
+    }
+
+    .off {
+        background-color: #000000;
+        color: white;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        padding: 30px 30px;
+        flex-direction: column;
+        flex-wrap: wrap;
+        gap: 15px;
+
+        p {
+            text-align: center;
+        }
+
+        button {
+            background-color: #CEFE2E;
+            font-size: 16px;
+            border: none;
+            padding: 1px 10px;
+            border-radius: 2px;
+        }
+    }
+}
